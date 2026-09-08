@@ -53,7 +53,6 @@ body.dark-mode {
     --border-color: #444444;
 }
 
-/* Idinagdag para sa Dark Mode transition at layout */
 body {
     transition: background-color 0.3s, color 0.3s;
 }
@@ -96,6 +95,7 @@ header {
     <header>
         <h1>Hello, World!</h1>
         <p>Welcome to my Git workshop project webpage.</p>
+        <button class="toggle-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
     </header>
 
     <main>
@@ -112,6 +112,17 @@ header {
                 <li>Inspecting log history</li>
             </ul>
         </section>
+        
+        <section>
+    <h2>Tech Stack Used</h2>
+    <div>
+        <span class="skills-tag">HTML5</span>
+        <span class="skills-tag">CSS3</span>
+        <span class="skills-tag">JavaScript</span>
+        <span class="skills-tag">Git</span>
+        <span class="skills-tag">VS Code</span>
+    </div>
+</section>
     </main>
 
     <footer>
